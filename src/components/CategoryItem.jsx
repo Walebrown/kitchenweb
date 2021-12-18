@@ -8,12 +8,13 @@ flex:1;
 margin: 3px;
 height: 70vh;
 position: relative;
+${mobile({height:'30vh'})}
 `
 const Image = styled.img` 
 width:100%;
 height:100%;
 object-fit: cover;
-${mobile({height:'20vh'})}
+
 `
 const Title = styled.h1` 
 color:white;
